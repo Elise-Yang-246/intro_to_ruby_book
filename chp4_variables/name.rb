@@ -1,5 +1,5 @@
-print 'Please type in your name: '
-name = gets.chomp
-puts "Hi #{name}!"
-
-10.times { puts name }
+puts 'What is your first name? '
+first_name = gets.chomp
+puts 'What is your last name? '
+last_name = gets.chomp
+puts "Full name: #{first_name} #{last_name}"
